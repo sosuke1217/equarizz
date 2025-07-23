@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>仮サイトタイトル</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="bg-light py-3 mb-4 border-bottom">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+      <a href="#" class="text-dark fs-4 text-decoration-none">ロゴ（仮）</a>
+      <ul class="nav">
+        <li class="nav-item"><a href="#" class="nav-link link-dark">Equarizzについて</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark">料金</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark">FAQ</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark">お問い合わせ</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ヒーローセクション -->
+  <section class="py-5 bg-white text-center">
+    <div class="container">
+      <h1 class="display-5 mb-3">キャッチコピー（仮）</h1>
+      <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec justo nec erat dapibus.</p>
+      <div class="bg-secondary text-white py-5">画像エリア（仮）</div>
+    </div>
+  </section>
+
+  <!-- 特徴セクション -->
+  <section class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-5">特徴一覧（仮）</h2>
+      <div class="row g-4">
+        <div class="col-6 col-md-4">
+          <div class="bg-white p-4 rounded shadow">
+            <div class="bg-secondary text-white rounded-circle mx-auto mb-3" style="width: 100px; height: 100px; line-height: 100px;">画像</div>
+            <h5>見出し1</h5>
+            <p>説明文1（仮）</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="bg-white p-4 rounded shadow">
+            <div class="bg-secondary text-white rounded-circle mx-auto mb-3" style="width: 100px; height: 100px; line-height: 100px;">画像</div>
+            <h5>見出し2</h5>
+            <p>説明文2（仮）</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="bg-white p-4 rounded shadow">
+            <div class="bg-secondary text-white rounded-circle mx-auto mb-3" style="width: 100px; height: 100px; line-height: 100px;">画像</div>
+            <h5>見出し3</h5>
+            <p>説明文3（仮）</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- informationセクション -->
+  <section class="information py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center mb-5">セクションタイトル（仮）</h2>
+
+      <!-- ブロック1 -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+          <div class="bg-secondary text-white text-center py-5">画像エリア（仮）</div>
+        </div>
+        <div class="col-md-6">
+          <h3 class="h5">サブタイトル1（仮）</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Donec tincidunt, nisi in convallis cursus.
+          </p>
+        </div>
+      </div>
+
+      <!-- ブロック2 -->
+      <div class="row align-items-center flex-md-row-reverse">
+        <div class="col-md-6">
+          <div class="bg-secondary text-white text-center py-5">画像エリア（仮）</div>
+        </div>
+        <div class="col-md-6">
+          <h3 class="h5">サブタイトル2（仮）</h3>
+          <p>
+            Pellentesque habitant morbi tristique senectus et netus. 
+            Nullam sed justo at orci accumsan varius.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQセクション -->
+  <section class="py-5 bg-light" id="faq">
+    <div class="container">
+      <h2 class="text-center mb-5">よくある質問（FAQ）</h2>
+
+      <div class="accordion" id="faqAccordion">
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+              Q1. 
+            </button>
+          </h2>
+          <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              答え
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+              Q2. 
+            </button>
+          </h2>
+          <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              答え
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+              Q3. 
+            </button>
+          </h2>
+          <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              答え
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+              Q4. 
+            </button>
+          </h2>
+          <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              答え
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+              Q5. 
+            </button>
+          </h2>
+          <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              答え
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+              Q6. 
+            </button>
+          </h2>
+          <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              答え
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse7" aria-expanded="false" aria-controls="faqCollapse7">
+              Q7. 
+            </button>
+          </h2>
+          <div id="faqCollapse7" class="accordion-collapse collapse" aria-labelledby="faqHeading7" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              答え
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading8">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse8" aria-expanded="false" aria-controls="faqCollapse8">
+              Q8. 
+            </button>
+          </h2>
+          <div id="faqCollapse8" class="accordion-collapse collapse" aria-labelledby="faqHeading8" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              答え
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading9">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse9" aria-expanded="false" aria-controls="faqCollapse9">
+              Q9. 
+            </button>
+          </h2>
+          <div id="faqCollapse9" class="accordion-collapse collapse" aria-labelledby="faqHeading9" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              答え
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading10">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse10" aria-expanded="false" aria-controls="faqCollapse10">
+              Q10. 
+            </button>
+          </h2>
+          <div id="faqCollapse10" class="accordion-collapse collapse" aria-labelledby="faqHeading10" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              答え
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading11">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse11" aria-expanded="false" aria-controls="faqCollapse11">
+              Q11. 
+            </button>
+          </h2>
+          <div id="faqCollapse11" class="accordion-collapse collapse" aria-labelledby="faqHeading11" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              答え
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading12">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse12" aria-expanded="false" aria-controls="faqCollapse12">
+              Q12. 
+            </button>
+          </h2>
+          <div id="faqCollapse12" class="accordion-collapse collapse" aria-labelledby="faqHeading12" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              答え
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LINEお問い合わせセクション -->
+  <section class="py-5 bg-light text-center" id="contact">
+    <div class="container" style="max-width: 700px;">
+      <h2 class="mb-4">LINEでのお問い合わせ</h2>
+      <p class="mb-4">ご質問・ご相談など、LINEでお気軽にお問い合わせください。</p>
+
+      <a href="https://lin.ee/your-line-link" target="_blank"
+        class="btn btn-success btn-lg d-inline-flex align-items-center px-4 py-3 shadow-sm polaris-line-button">
+        <i class="fab fa-line me-2 fs-4"></i>
+        公式LINEで相談する
+        <i class="fas fa-arrow-up-right-from-square ms-2 fs-6"></i>
+      </a>
+
+      <p class="text-muted mt-3 small">※ タップするとLINEが起動します</p>
+    </div>
+  </section>
+
+
+    <!-- 固定バナー：中身中央寄せ＆詰めたバージョン -->
+  <div class="fixed-bottom bg-white border-top shadow-lg py-3" style="z-index: 1050;">
+    <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-2 mx-auto px-3" style="max-width: 900px;">
+      
+      <!-- 左側テキスト -->
+      <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2">
+        <div class="text-primary fw-bold fs-6">＼ 仮キャッチコピー ／</div>
+        <div class="fw-bold fs-5">LINE無料相談受付中！</div>
+        <span class="badge bg-warning text-dark fw-bold px-2 py-1">カンタン 1分</span>
+      </div>
+
+      <!-- 右側ボタン -->
+      <a href="#" target="_blank" class="polaris-line-button d-inline-flex align-items-center text-white text-decoration-none fw-bold px-3 py-2">
+        <span class="me-2"><i class="fab fa-line"></i></span>
+        LINE無料受験相談に申し込む
+        <span class="ms-2"><i class="fas fa-arrow-up-right-from-square"></i></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- フッター -->
+  <footer class="bg-white border-top py-4">
+    <div class="container text-center">
+      <p class="mb-1">© 2024 ダミー会社名（仮） All rights reserved.</p>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="#" class="text-dark text-decoration-none">Equarizzについて</a>
+        <a href="#" class="text-dark text-decoration-none">料金</a>
+        <a href="#" class="text-dark text-decoration-none">FAQ</a>
+        <a href="#" class="text-dark text-decoration-none">お問い合わせ</a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

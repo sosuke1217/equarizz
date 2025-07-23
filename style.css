@@ -1,0 +1,57 @@
+/* === 固定バナーのスタイル === */
+.fixed-bottom-banner {
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 1rem;
+  z-index: 1050;
+}
+
+/* === ポラリス風 LINEボタン === */
+.polaris-line-button {
+  background-color: #06C755;
+  border-radius: 40px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 0.75rem 2rem;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.polaris-line-button:hover {
+  background-color: #04b44b;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.polaris-line-button i {
+  font-size: 1.2rem;
+}
+
+/* モバイル用レスポンシブ調整 */
+@media (max-width: 576px) {
+  .polaris-line-button {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+#faq .accordion-button {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#faq .accordion-body {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+body {
+  padding-bottom: 80px; /* フッターを隠さないように底上げ */
+}

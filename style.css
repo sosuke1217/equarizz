@@ -55,3 +55,10 @@
 body {
   padding-bottom: 80px; /* フッターを隠さないように底上げ */
 }
+
+.carousel-item {
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
